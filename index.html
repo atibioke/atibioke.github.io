@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>My Calculator</title>
+       <link rel="stylesheet" href="stylesheet.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="./js/calculator.js"></script>
+   </head>
+<body>
+    <div class="calculator">
+    <table>
+    <span id="cal">Calculator</span>
+       <div id="userInput" class='user-input' type="text" placeholder="2+2"></div>
+        
+        <tr>
+        <td><button onclick="displayClick('1')">1</button></td>
+        <td><button onclick="displayClick('2')">2</button></td>
+        <td><button onclick="displayClick('3')">3</button></td>
+        <td><button onclick="displayClick('4')">4</button></td>
+        </tr>
+       <tr> 
+        <td><button onclick="displayClick('5')">5</button></td>
+        <td><button onclick="displayClick('6')">6</button></td>
+       <td><button onclick="displayClick('7')">7</button></td>
+        <td><button onclick="displayClick('8')">8</button></td>
+        </tr>
+        <tr>
+        <td><button onclick="displayClick('9')">9</button></td>
+        <td><button onclick="displayClick('0')">0</button></td>
+        <td><button onclick="displayClick('+')">+</button></td>
+        <td><button onclick="displayClick('-')">-</button></td>
+    </tr>
+    <tr>
+         <td><button onclick="displayClick('/')">/</button></td>
+         <td><button onclick="displayClick('.')">.</button></td>
+         <td><button class="MC" onclick="displayClick('MC')">MC</button></td>
+         <td><button class="M" onclick="displayClick('M+')">M+</button></td>
+         </tr>
+         <tr>
+             <td><button onclick="displayClick('**')">^</button></td>
+             <td><button onclick="displayClick('log()')">log()</button></td>
+             <td><button onclick="displayClick('10^()')">10^x</button></td>
+             <td><button class="summation" onclick="displayClick('=')">=</button></td>
+
+         </tr> 
+       </table>
+    </div>
+    </body>
+</html>
