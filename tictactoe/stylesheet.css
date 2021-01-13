@@ -1,0 +1,43 @@
+.container{
+    width: 200px;
+    height: 206px;
+    border: 2px solid black;
+    margin: auto;
+}
+.contain1{
+    width: 66.7px;
+    height: 66.7px;
+    border: 1px solid blue;
+    cursor: pointer;
+    text-align: center;
+   font-size: 50px;
+}
+.contain, .containers, .contains{
+    display: flex;
+}
+
+.xColor{
+    color: green;
+}
+.oColor{
+    color: blue;
+}
+.Message{
+    width: 150px;
+    height: 23px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+    margin-top: 14px;
+    text-align:center;
+}
+.restart{
+    background-color: blue;
+    color: white;
+    width:70px;
+    height: 25px;
+    margin-left:60px;
+    margin-top: 10px;
+}
