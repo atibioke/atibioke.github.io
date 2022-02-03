@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+}
+
+/* STYLING THE NAVBAR */
+
+nav{
+    display: flex;
+    padding: 1% 3% 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 30px;
+    
+}
+
+/* STYLING THE LOGO IN THE NAVBAR */
+
+nav img{
+    width: 130px;
+}
+
+/* STYLING THE NAV LINKS */
+
+.nav-link{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+   
+}
+
+/* STYLING THE LIKE IN THR NAVBAR */
+
+.liked-div{
+    width: 120px;
+    height: 44px;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.search-bar{
+    width:100%;
+    max-width: 700px;
+    background:  rgb(250, 250, 250);
+    display:flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    /* padding: 24px 20px; */
+    color:  rgb(250, 250, 250);
+}
+
+::placeholder{
+    color: white;
+}
+
+.search-bar button img{
+    width: 30px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius:50%;
+    width: 100px;
+    height: 60px;
+    background: rgb(250, 250, 250);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
