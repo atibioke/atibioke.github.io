@@ -225,20 +225,208 @@ body{
   .fa-search {
       margin-top: 16px;
   }
-  
- 
 
   .left-lt{
       justify-content: flex-start;
   }
-/* 
-.delivery-message{
-    justify-content: center;
-} */
+
+
+  /* ACTIVE JACKET*/
   
   
-  /* @media screen and (max-width: 600px) {
-    .liked-products, .cart-count, nav a  {
-        display: none;
-    }
-  } */
+  .chill-wrapper {
+    background-image: url("./Images/chill-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -107px;
+    padding: 0 0 0 5%;
+  
+  }
+  .chill-container {
+    padding: 10px;
+  }
+  .train {
+    margin-bottom: 20px;
+    font-size: 74px;
+    letter-spacing: -1.2px;
+    word-spacing: 0.1em;
+    font-weight: 600;
+    color: #f7f7f7;
+    text-align: left;
+    line-height: 1;
+  }
+  .active-jacket {
+    font-size: 16px;
+    line-height: 1.4em;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    color: #f7f7f7;
+    margin-bottom: 20px;
+  }
+  .shop-jacket-btn {
+    border: none;
+    background-color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+
+  /* ULTRA-TEES */
+
+  .ultra-tees{
+    padding: 10px;
+    min-height: 375px;
+}
+
+.ultra-tees-container{
+    font-size: 26px;
+    color: #fff;
+    text-align: left;
+    padding: 70% 30% 10% 10%;
+    background-image: url("./Images/ultra-tees.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ACTIVE WEARS */
+
+.active-wears{
+    background-image: url("./Images/active-wear.jpg"); 
+}
+
+/* SOCKS */
+
+.socks-container{
+    height:270px;
+    display: flex;
+    padding: 5px;
+}
+
+.socks{
+    background-image: url("../../smile/Images/Socks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+    height:100%
+
+}
+
+/* SHOP SOCKS */
+
+.shop-socks-container{
+    padding: 10px;
+    background-color: #fff;
+}
+.socks-text{
+    font-size: 26px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.socks-paragraph{
+    color: #000;
+}
+.shop-socks-container > button{
+    margin-bottom: 20px;
+}
+  
+
+  /*footer*/
+  
+  
+  li{
+    list-style: none;
+}
+
+
+
+footer {
+  background-color: #000;
+  font-family: "Roboto", Sans-serif;
+  color: #fff;
+  padding: 10% 5%;
+}
+.texts-container {
+  width: 89.839%;
+  margin: 0 auto;
+}
+.smiley-foot-title {
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+.smiley-foot-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+
+}
+.media-icons{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.media-icon{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:30px;
+    height: 30px;
+    border-radius:50%;
+    background-color:white;
+    font-size: 14px;
+    color:black;
+    margin-right: 22px;
+}
+.smiley-container{
+    display: flex;
+    margin-bottom: 5%;
+}
+.contact{
+    background-color:white;
+    text-transform: uppercase;
+    border: none;
+    border-radius:5px;
+    letter-spacing:1px;
+    font-size: 14px;
+    font-weight: 600;
+    padding:15px 30px;
+    margin:0 7% 0 0;
+}
+.faqs{
+    padding:15px 53px;
+}
+.shop-details-section{
+    display: flex;
+    justify-content:space-between;
+}
+.shop-link{
+    line-height:2.2;
+
+}
+.shop-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
