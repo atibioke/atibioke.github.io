@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Roboto, "Helvetica Neue";
+  font-family: "Roboto",Sans-serif;
   
 }
 * {
@@ -12,63 +12,48 @@ body {
 }
 /*general styling*/
 
-.testimonies-container{
-    padding: 10% 5%;
+.outer-container {
+    background-color: #fff;
+    padding: 15px 0 20px;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
 }
 
-.testimonies-title{
-    margin-bottom: 20px;
-    font-size:26px;
-    font-weight:500;
+.inner-container{
+    display: flex;
 }
 
-.star-container{
-    font-size:12px;
+.inner-container > div {
+    margin: 6px;
 }
 
-.name{
-    font-size:16px;
-    font-weight:600;
+.inner-container > div > i{
+    font-size: 24px;
+}
+.outer-container > div > i{
+    font-size: 24px;
 }
 
-.whatsapp{
-    color: rgb(9, 250, 9);
+.outer-container > div {
+    margin: 6px;
+    align-self: center;
 }
 
-.customer-media{
-    display:flex;
-    justify-content:space-between;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding-right: 20px;
-    padding-bottom: 6px;
-    
+.line-btw{
+    padding-left: 15px;
+    border-left: 1px solid #000;
 }
 
-.customer-name-wrapper{
-    margin-right: 10px;
-    width: 340px;
+.window{
+    margin-bottom: 8px;
 }
-
-
-
-
-.comments{
-    font-size:14px;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 1.5em;
-}
-
-
-.testimonies-container > .circles {
-    margin: 40px 0 30px 0;
-}
-
-.circles > i:nth-child(2) {
-    color:red;
- }
-
 
 
 
