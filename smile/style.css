@@ -43,6 +43,7 @@ body{
     width:100%;  
     padding: 3%;
     background-color: #fff;
+
 }
 .navbar-logo{
     width: 24.057%;
@@ -336,6 +337,59 @@ body{
 .shop-socks-container > button{
     margin-bottom: 20px;
 }
+
+
+/* BOXERS-STYLING */
+.boxer-img{
+    background-image: url('../../smile/Images/boxer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+
+}
+
+.boxer-container{
+    padding: 10px;
+}
+
+.boxer-wrapper{
+    display: flex;
+    background-color: #fff;
+}
+
+.brief-style{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.boxer-container > .socks-paragraph{
+color:#55595c;
+line-height: 1.5em;
+}
+
+/* BUNDLES */
+
+.bundles{
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+.bundle-img{
+    background-image: url('../../smile/Images/bundles.jpg')
+}
+
+.bundle-container{
+    min-height: 100px;
+    padding: 3% 30% 0 0;
+    margin-bottom: 20px;
+}
+
+.bundle-paragraph{
+    color: #55595c;
+    font-size: 14px;
+}
   
 
   /*footer*/
@@ -420,6 +474,62 @@ footer {
     font-size: 18px;
 }
 
+
+/* TESTIMONIES SECTION */
+
+.testimonies-container{
+    padding: 10% 5%;
+}
+
+.testimonies-title{
+    margin-bottom: 20px;
+    font-size:26px;
+    font-weight:500;
+}
+
+.star-container{
+    font-size:12px;
+}
+
+.name{
+    font-size:16px;
+    font-weight:600;
+}
+
+.whatsapp{
+    color: rgb(9, 250, 9);
+}
+
+.customer-media{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    
+}
+
+.customer-name-wrapper{
+    margin-right: 10px;
+    width: 340px;
+}
+
+.comments{
+    font-size:14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+
+.testimonies-container > .circles {
+    margin: 40px 0 30px 0;
+}
+
+.circles > i:nth-child(2) {
+    color:red;
+ }
 
 
 
