@@ -12,48 +12,7 @@ body {
 }
 /*general styling*/
 
-.outer-container {
-    background-color: #fff;
-    padding: 15px 0 20px;
-    position: fixed;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    bottom: 10px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 99;
-}
 
-.inner-container{
-    display: flex;
-}
-
-.inner-container > div {
-    margin: 6px;
-}
-
-.inner-container > div > i{
-    font-size: 24px;
-}
-.outer-container > div > i{
-    font-size: 24px;
-}
-
-.outer-container > div {
-    margin: 6px;
-    align-self: center;
-}
-
-.line-btw{
-    padding-left: 15px;
-    border-left: 1px solid #000;
-}
-
-.window{
-    margin-bottom: 8px;
-}
 
 
 
