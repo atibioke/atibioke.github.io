@@ -1,7 +1,7 @@
 
 // QUADRATIC EQUATION
 
-let a = 1;
+let a = 3;
 let b = 3;
 let c = 2;
 
@@ -20,18 +20,18 @@ console.log(result_2);
 
 // HERON'S FORMULA
 
-let a = 3;
-let b = 4;
-let c = 5;
+// let a = 3;
+// let b = 4;
+// let c = 5;
 
-const S = ((a + b + c) / 2);
-const num_1 = (S - a);
-const num_2 = (S - b);
-const num_3 = (S - c);
-const D = (S * num_1*num_2*num_3);
-const Area = Math.sqrt(D);
+// const S = ((a + b + c) / 2);
+// const num_1 = (S - a);
+// const num_2 = (S - b);
+// const num_3 = (S - c);
+// const D = (S * num_1*num_2*num_3);
+// const Area = Math.sqrt(D);
 
-console.log(Area);
+// console.log(Area);
 
 
 

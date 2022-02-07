@@ -38,7 +38,7 @@ body {
   padding: 3%;
   background-color: #fff;
   position:sticky;
-  top: 0;
+  top: -1px;
 }
 .navbar-logo {
   width: 24.057%;
@@ -364,6 +364,36 @@ nav a {
   line-height: 1.5em;
 }
 
+
+
+.boxer-img_1 {
+    background-image: url("../smile/Images/bundle-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
+
+.boxer-container_1 {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .boxer-wrapper_1 {
+    display: flex;
+    background-color: #fff;
+  }
+  
+  .brief-style_1 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .boxer-container_1 > .socks-paragraph_1 {
+    color: #55595c;
+    line-height: 1.5em;
+  }
+
 /* BUNDLES */
 
 .bundles {
@@ -620,16 +650,18 @@ footer {
   bottom: 10px;
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   opacity: 0.9;
 }
 
 .inner-container {
   display: flex;
+ 
 }
 
 .inner-container > div {
   margin: 6px;
+  align-self: baseline;
 }
 
 .inner-container > div > i {
@@ -649,8 +681,17 @@ footer {
   border-left: 1px solid #000;
 }
 
+
+.zero_1{
+    font-size: 17px;
+    background-color: yellow;
+    font-weight: bold;
+}
 .window {
   margin-bottom: 8px;
+}
+.mb{
+    margin-bottom:8px;
 }
 
 @media screen and (min-width: 460px) {
@@ -667,3 +708,4 @@ footer {
   }
 
 }
+
