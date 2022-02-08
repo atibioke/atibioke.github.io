@@ -806,19 +806,27 @@ width: 8.6838%
     width: 75.117%;
     position: relative;
     z-index: 1;
-    /* justify-self: flex-end; */
 }
+
+
 .hero-section-links{
-    /* position: absolute; */
-    /* z-index: 99; */
     position: relative;
     z-index: 99;
     width: 26%;
     padding: 40px;
-    background-color: yellow;
+    background-color: #ffd12f;
     margin: 20px;
     left: 38px;
 }
+
+/* .hero-part-li{
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+} */
 
 
 }
