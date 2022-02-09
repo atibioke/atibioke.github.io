@@ -104,7 +104,7 @@ body {
     display:none;
 }
 
-
+    /* HERO SECTION  */
 
 
 
@@ -121,6 +121,18 @@ body {
   padding: 0 0 0 5%;
 }
 
+
+.hero-section-links{
+    display: none;
+}
+
+
+/* END */
+
+
+/* MONTH SALES TEXT */
+
+
 .month-sales {
   background-color: white;
   padding: 7% 0 3%;
@@ -133,6 +145,8 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
+
+
 .product-container {
   display: flex;
   justify-content: space-between;
@@ -417,6 +431,13 @@ nav a {
     color: #55595c;
     line-height: 1.5em;
   }
+
+
+  .hide-bundle-1{
+      display: none;
+  }
+
+ 
 
 /* BUNDLES */
 
@@ -795,6 +816,12 @@ width: 8.6838%
     letter-spacing:0.5px;
 
 }
+
+
+/* Hero-mini-container */
+
+
+
 .hero-section-container{
     display: flex;
     position: relative;
@@ -810,6 +837,7 @@ width: 8.6838%
 
 
 .hero-section-links{
+    display: block;
     position: relative;
     z-index: 99;
     width: 26%;
@@ -819,15 +847,174 @@ width: 8.6838%
     left: 38px;
 }
 
-/* .hero-part-li{
+.hero-part-li{
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-decoration: none;
-} */
+}
 
+.hero-section-link{
+    margin-bottom:20px;
+    padding: 0 8px;
+}
+
+.hero-section-links > button{
+    background-color: #000;
+    color: #fff;
+}
+
+
+        /* END */
+
+.product-info{
+    width: 23.177%;
+}
+
+.month-sales{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+
+
+.chill-wrapper{
+    display: none;
+}
+
+
+
+
+.ultra-tees{
+    background-color: #fff;
+    width: 48%;
+    padding: 10px;
+}
+
+.ultra-tees-wrapper{
+    display: flex;
+    text-align: center;
+    min-height: 580px;
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 85px;
+}
+
+
+
+
+.prod-container{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    background-color: #fff;
+}
+
+.socks-container{
+    height: 500px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.shop-socks-container{
+    padding: 40px;
+}
+
+
+
+.boxers-size{
+min-height: 400px;
+
+}
+
+.boxer-wrapper{
+    padding: 5% 5% 3%;
+}
+
+.hide-bundle-1{
+    display: block;
+}
+.hide-bundle-2{
+    display: none;
+}
+
+
+
+
+
+/* TESTIMONIES */
+
+.rating{
+    background-color: #fff;
+    padding:35px
+    /* padding: 0 30% 0 10%; */
+}
+
+
+
+
+.side-image{
+    width: 33%;
+    min-height: 500px;
+}
+
+.container-1{
+    width: 63%;
+    align-self:center;
+    /* padding: 0 30% 0 10%; */
+    background-color: #eee;
+
+}
+
+.testimonies-container{
+    display: flex;
+    justify-content:space-between;
+    background-color: #eee;
+    padding:0;
+}
+
+.name-1{
+    font-size: 40px;
+}
+
+.name-2{
+    font-size: 20px;
+}
+
+.chat{
+    font-size: 25px;
+}
+.customer-media{
+    font-size: 25px;
+}
+.comments{
+    font-size: 18px;
+}
+
+.balls{
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+}
+
+
+
+/* ON 'GRAM */
+
+
+.img-on-gram > div {
+    width: 16%;
+}
+
+.inner-gram-text{
+    font-family: "Roboto",Sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
 
 }
 
