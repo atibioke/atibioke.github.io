@@ -1064,6 +1064,10 @@ min-height: 400px;
     position: relative;
     left: 100px;
 }
+.smiley-foot > div {
+    display: flex;
+    order: 1;
+}
 }
 
 
