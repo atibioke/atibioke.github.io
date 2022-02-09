@@ -476,6 +476,7 @@ footer {
 .texts-container {
   width: 89.839%;
   margin: 0 auto;
+ 
 }
 .smiley-foot-title {
   font-size: 35px;
@@ -1068,8 +1069,35 @@ min-height: 400px;
     display: flex;
     order: 1;
 }
+
+.footie-text{
+    display: flex;
+    order: 1;
 }
 
+.smiley-foot > .footer-2 > .footie-text{
+    width: 658px;
+   
+}
+
+.smiley-foot > .footer-2 > .footy-text{
+    width: 458.99px;
+   
+}
+.support-section{
+    position: relative;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.texts-container{
+    width: 568.839%;
+    margin: 0 auto;
+    padding: 0 3% 0 15%;
+    border-left: 1px solid #7a7a7a;
+}
+
+}
 
 
 
