@@ -1015,7 +1015,31 @@ min-height: 400px;
     font-weight: 500;
     letter-spacing: .5px;
 }
+.envelop-1{
+    display:flex;
+}
 
+.envelop-2{
+    display: flex;
+}
+.discount-container{
+    padding: 96px;
+}
+
+.girl-in-orange-wear{
+    width: 730px;
+    height: 390px;
+}
+
+.discount-text > .discount-wrapper{
+    font-family: "Roboto",Sans-serif;
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.envelop-btn-container > button{
+    width: 126.21px;
+}
 }
 
 
