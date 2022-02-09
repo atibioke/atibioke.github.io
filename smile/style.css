@@ -1015,6 +1015,17 @@ min-height: 400px;
     font-weight: 500;
     letter-spacing: .5px;
 }
+
+
+.discount-text{
+    width: 534.88px;
+    height:163.8px;
+}
+
+
+
+
+
 .envelop-1{
     display:flex;
 }
@@ -1023,7 +1034,8 @@ min-height: 400px;
     display: flex;
 }
 .discount-container{
-    padding: 96px;
+    padding: 69px;
+    width: 100%;
 }
 
 .girl-in-orange-wear{
@@ -1037,12 +1049,22 @@ min-height: 400px;
     font-weight: 500;
     line-height: 1.4em;
 }
+.envelop{
+   height: 39px;
+   width:39px;
+}
+.envelop-input{
+    width: 134%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+}
 .envelop-btn-container > button{
     width: 126.21px;
+    position: relative;
+    left: 100px;
 }
 }
-
-
 
 
 
