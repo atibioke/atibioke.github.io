@@ -127,6 +127,15 @@ body {
 }
 
 
+.girl-in-orange-wear{
+    display: none;
+}
+
+.support-link{
+    display: none;
+}
+
+
 /* END */
 
 
@@ -178,35 +187,7 @@ body {
   color: red;
 }
 
-/* width: 350px;
-    height: 438px; */
 
-/* nav {
-    overflow: hidden;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    padding: 10px;
-    position: sticky;
-    bottom: 5;
-  }
-   */
-nav a {
-  float: left;
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 17px;
-  font-family: "Roboto", Sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
 
 .search {
   outline: none;
@@ -473,6 +454,12 @@ footer {
   color: #fff;
   padding: 10% 5%;
 }
+
+.footer-1{
+    display: flex;
+    justify-content: center;
+}
+
 .texts-container {
   width: 89.839%;
   margin: 0 auto;
@@ -755,7 +742,7 @@ footer {
 
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 968px) {
 .outer-container{
     display: none;
 }
@@ -865,6 +852,7 @@ width: 8.6838%
 .hero-section-links > button{
     background-color: #000;
     color: #fff;
+    border: none;
 }
 
 
@@ -1018,11 +1006,18 @@ min-height: 400px;
 }
 
 
-.discount-text{
+/* .discount-text{
     width: 534.88px;
     height:163.8px;
+} */
+.orange-img-container{
+    background-image: url('./Images/girl-in-orange.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    min-width: 40.5384%;
+    min-height: 325px;
 }
-
 
 
 
@@ -1035,13 +1030,15 @@ min-height: 400px;
     display: flex;
 }
 .discount-container{
-    padding: 69px;
-    width: 100%;
+    width: 58.769%;
+    padding: 0 20% 0 2%;
 }
-
-.girl-in-orange-wear{
-    width: 730px;
-    height: 390px;
+.envelop-input-container{
+    width: 76%;
+}
+.envelop-btn-container{
+    width:auto;
+    margin-left: 23px;
 }
 
 .discount-text > .discount-wrapper{
@@ -1067,39 +1064,58 @@ min-height: 400px;
 }
 .smiley-foot > div {
     display: flex;
-    order: 1;
+    /* order: 1; */
+    flex-direction: row-reverse;
 }
 
 .footie-text{
     display: flex;
-    order: 1;
+    width:56%;
+
 }
 
-.smiley-foot > .footer-2 > .footie-text{
+/* .smiley-foot > .footer-2 > .footie-text{
     width: 658px;
    
-}
+} */
 
-.smiley-foot > .footer-2 > .footy-text{
+/* .smiley-foot > .footer-2 > .footy-text{
     width: 458.99px;
    
+} */
+footer{
+    padding:7% 5%;
 }
+
+.shop-links{
+    padding: 10px;
+}
+
+
+.footer-1{
+    display: flex;
+}
+/* 
 .support-section{
     position: relative;
     width: 50%;
     flex-wrap: wrap;
     align-content: flex-start;
-}
+} */
 .texts-container{
-    width: 568.839%;
-    margin: 0 auto;
+    /* width: 568.839%;
+    margin: 0 auto; */
     padding: 0 3% 0 15%;
     border-left: 1px solid #7a7a7a;
 }
 
 .left-footie{
-    width: 458.99;
+    width: 41%;
     display: flex;
+}
+.support-link{
+    display:block;
+ 
 }
 
 }
