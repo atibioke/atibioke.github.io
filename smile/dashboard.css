@@ -78,13 +78,27 @@
 .side-bar{
     background-color: #1D2327;
     height:100vh;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     bottom: -120px;
-    z-index: 1;
+    z-index: 1; */
     width:160px;
     color: #F0F0F1;
 }
+
+.sidebar-cover{
+    text-align: center;
+}
+
+.sidebar-cover ul{
+    text-align: center;
+    list-style: none;
+}
+
+.sidebar-cover ul li{
+    padding: 10px 5px;
+}
+
 
 .dashboard{
     padding-top:45px;
