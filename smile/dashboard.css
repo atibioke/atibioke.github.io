@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ /* NAVBAR */
+.header{
+    background-color: #1D2327;
+    color: white;
+    width: 100%;
+    font-size:12px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: row
+}
+.wordpress-img-container{
+    padding: 0px 7px;
+    background-color: #F0F0F1;
+    border-radius: 50%;
+    width: 23%;
+    height:23%
+}
+
+
+.wordpress-img{
+    color: rgba(240,246,252,.6);
+   
+    padding: 0px 7px;
+    width: 25px;
+    height: 25px;
+}
+
+.home-img{
+    background-color: rgba(240,246,252,.6); 
+}
+
+
+.house-icon{
+    margin: 0px 6px 0px 0px;
+    padding: 4px 0px;
+}
+
+.notification-container{
+    padding: 0px 8px 0px 7px;
+}
+
+.zero{
+    font-size:13px;
+    color: #F0F0F1;
+}
+
+.new-text{
+    font-size:13px;
+    color: #F0F0F1;
+}
+
+
+.inner-nav-1 {
+    color: #F0F0F1;
+    list-style: none;
+}
+
+.inner-nav-2{
+    background-color: #DC3232;
+    color: #F0F0F1;
+    font-size: 13px;
+}
+
+
+
+/* ASIDE */
+
+.side-bar{
+    background-color: #1D2327;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    bottom: -120px;
+    z-index: 1;
+    width:160px;
+    color: #F0F0F1;
+}
+
+.dashboard{
+    padding-top:45px;
+}
+
+
+.loobook{
+    padding: 8px 8px 8px 36px;
+}
+
+
+
+
+
+
+
+
