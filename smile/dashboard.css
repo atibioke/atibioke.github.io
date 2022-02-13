@@ -105,11 +105,15 @@
 }
 
 
-.loobook{
+.lookbook{
     padding: 8px 8px 8px 36px;
 }
 
-
+.center-box{
+    background-color:#3858e9;
+    width:100%;
+    
+}
 
 
 
