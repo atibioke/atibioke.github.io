@@ -47,3 +47,97 @@ button {
   color: #4285f4;
   float: right;
 }
+
+
+
+
+
+
+
+.text-container{
+  color: #545454;
+  font-size: 14px;
+  font-family: "Roboto",Sans-serif;
+  padding: 0px 0px 18px;
+  width: 100%;
+}
+
+.text-container > div{
+  margin: 0px 39.6px;
+  text-align: center;
+}
+
+.header-word{
+text-align: center;
+font-size: 1.875rem;
+line-height: 42px;
+padding-bottom:20px;
+}
+
+p{
+  margin-right: auto;
+  margin-left:auto;
+  text-align: center;
+  max-width: 40rem;
+  font-size: 0.875rem;
+  line-height: 21px;
+  padding-bottom:15px;
+}
+
+
+h3{
+  text-align: center;
+  padding-bottom: 35px;
+  margin: 0 376px;
+  font-size: 18px;
+}
+
+
+
+
+
+/* 
+
+
+
+
+.header-word{
+  margin: 0px 350px;
+  font-size: 30px;
+  color: #414141;
+  margin-bottom: 15px;
+  display: contents;
+  text-align: center;
+}
+
+p{
+  font-size:  14px;
+  font-family: "Roboto" ,Sans-serif;
+  padding: 0px 332px 24px;
+  margin-bottom: 15px;
+  line-height: 1.7;
+text-align: center;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 0px 230px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
