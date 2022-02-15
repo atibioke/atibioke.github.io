@@ -16,16 +16,47 @@
     font-family: "Roboto", sans-serif;
     display: flex;
     text-align: center;
-    flex-direction: row
+    /* flex-direction: row */
 }
+
+.wordpress-icon{
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: 2px;
+  color:rgba(240,246,252,.6);
+  float: left;
+}
+
+.iconify{
+    color:rgba(240,246,252,.6);
+}
+
+.buyhair-word{
+    font-size:13px;
+    color: #F0F0F1;
+    padding-left: 5px;
+    font-weight:300;
+}
+
+.comment{
+    display: flex;
+}
+
 .wordpress-img-container{
     padding: 0px 7px;
-    background-color: #F0F0F1;
-    border-radius: 50%;
+  
     width: 23%;
     height:23%
 }
 
+
+.buyhair-container{
+    padding-left: 44px;
+    position: relative;
+    float: left;
+    
+}
 
 .wordpress-img{
     color: rgba(240,246,252,.6);
@@ -111,7 +142,6 @@
 
 .center-box{
     background-color:#3858e9;
-    width:100%;
     
 }
 
