@@ -14,7 +14,8 @@
   font-family: "Roboto", sans-serif;
   display: flex;
   text-align: center;
-  position: fixed;
+  position:sticky;
+  top: 0;
   /* flex-direction: row */
 }
 
@@ -47,7 +48,7 @@
 
 .comment {
   display: flex;
-  padding-left: 25px;
+  padding-left: 22px;
   padding-top: 10px;
   text-align: center;
 }
@@ -69,13 +70,13 @@ p .comment-icon {
 
 .wordpress-img-container {
   padding: 0px 7px;
-  margin-right: -362px;
+  /* margin-right: -362px;
   width: 23%;
-  height: 23%;
+  height: 23%; */
 }
 
 .buyhair-container {
-  padding-left: 44px;
+  /* padding-left: 44px; */
   position: relative;
   /* float: left; */
   text-align: center;
@@ -160,7 +161,7 @@ p .comment-icon {
 
 .greeting-container{
     display: flex;
-    justify-content: flex-end;
+    margin-left: 985px;
     color: #fff;
    
 }
@@ -168,10 +169,31 @@ p .comment-icon {
 .greeting{
     position: relative;
     float: right;
-    color: #fff;
+    color: #f1f1f1;
+    font-size: 12px;
+    font-weight: 300;
 }
 
+.greeting-container > a{
+  margin-bottom: 5px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-right: 5px;
+}
 
+/* .greeting > span{
+  margin-bottom: 5px;
+  padding-right: 3px;
+} */
+
+.avatar{
+  border: 1px solid #8c8f94;
+   background: #cacaca;
+   color: #fff;
+   width: auto;
+   height: 16px;
+   margin-top: 5px;
+}
 
 
 
@@ -196,20 +218,31 @@ p .comment-icon {
 .side-bar {
   background-color: #1d2327;
   height: 100vh;
-  /* position: fixed;
-    top: 0;
-    bottom: -120px;
-    z-index: 1; */
-  width: 160px;
+ 
+  width: 35%;
   color: #f0f0f1;
+
+  
+  
 }
 
-.sidebar-cover {
-  text-align: center;
+li{
+  cursor: pointer;
 }
+
+ li:hover .li-span{
+  color: #2ea2cc;
+  
+}
+
+li:hover{
+  border-left: 5px solid #2ea2cc;
+}
+
+
 
 .sidebar-cover ul {
-  text-align: center;
+ 
   list-style: none;
 }
 
@@ -224,7 +257,26 @@ p .comment-icon {
 .lookbook {
   padding: 8px 8px 8px 36px;
 }
-
-.center-box {
-  background-color: #3858e9;
+.sidebar-centerbox-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
+
+.center-box{
+ width: 75%;
+margin: 0 auto;
+padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
