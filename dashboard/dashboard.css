@@ -202,7 +202,7 @@ p .comment-icon {
 
 
 
-.inner-nav-1 {
+/* .inner-nav-1 {
   color: #f0f0f1;
   list-style: none;
 }
@@ -211,14 +211,14 @@ p .comment-icon {
   background-color: #dc3232;
   color: #f0f0f1;
   font-size: 13px;
-}
+} */
 
 /* ASIDE */
 
 .side-bar {
   background-color: #1d2327;
   height: 100vh;
- 
+  position: fixed;
   width: 35%;
   color: #f0f0f1;
 
@@ -250,23 +250,28 @@ li:hover{
   padding: 10px 5px;
 }
 
-.dashboard {
+/* .dashboard {
   padding-top: 45px;
 }
 
 .lookbook {
   padding: 8px 8px 8px 36px;
-}
+} */
+
+
 .sidebar-centerbox-container{
   display: flex;
   justify-content: space-between;
   width: 100%;
+
 }
 
 .center-box{
  width: 75%;
 margin: 0 auto;
 padding-top: 10px;
+background: #3858e9;
+margin-top: 25px;
 }
 
 
