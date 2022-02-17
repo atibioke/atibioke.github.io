@@ -348,7 +348,7 @@ padding: 20px;
 .image-1-container{
   width: 70%;
   margin: 0 auto;
- 
+  text-align: left;
   display: flex;
   margin-top: 70px;
   
@@ -359,18 +359,19 @@ padding: 20px;
 }
 
 .image-1-texts > h3{
-text-align: center;
+
 font-size: 24.96px;
 color: #1d2327;
 margin-bottom: 15px;
 }
 
 .image-1-texts > p{
-  text-align: center;
+ 
   font-size: 18px;
   color: #1d2327;
   margin-bottom: 15px;
   line-height: 1.5rem;
+  
   }
 
 
@@ -383,17 +384,18 @@ margin-bottom: 15px;
 
 .image-2-texts{
   padding-right: 30px;
+  text-align: left;
 }
 
 .image-2-texts > h3{
-  text-align: center;
+ 
   font-size: 24.96px;
   color: #1d2327;
   margin-bottom: 15px;
   }
   
   .image-2-texts > p{
-    text-align: center;
+ 
     font-size: 18px;
     color: #1d2327;
     margin-bottom: 15px;
@@ -401,8 +403,11 @@ margin-bottom: 15px;
     }
 
     .footer{
-    display: flex;
-    
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      margin-top: 70px;
+      flex-wrap: nowrap;
     }
 
 
