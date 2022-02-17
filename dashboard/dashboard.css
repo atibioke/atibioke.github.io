@@ -202,26 +202,16 @@ p .comment-icon {
 
 
 
-/* .inner-nav-1 {
-  color: #f0f0f1;
-  list-style: none;
-}
 
-.inner-nav-2 {
-  background-color: #dc3232;
-  color: #f0f0f1;
-  font-size: 13px;
-} */
 
 /* ASIDE */
 
 .side-bar {
   background-color: #1d2327;
   height: 100vh;
-  position: fixed;
-  width: 35%;
+  width: 10%;
   color: #f0f0f1;
-
+  position: fixed;
   
   
 }
@@ -260,18 +250,109 @@ li:hover{
 
 
 .sidebar-centerbox-container{
+  /* position: relative; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
 
 }
 
 .center-box{
- width: 75%;
+ width: 70%;
 margin: 0 auto;
 padding-top: 10px;
 background: #3858e9;
 margin-top: 25px;
+background-image: url(./balloon-wordpress.svg);
+background-repeat: no-repeat;
+background-position: right;
+background-size: 350px 350px;
+min-height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 20px;
+
+}
+
+.center-box-container{
+  width: 100%;
+  /* margin: 0 auto; */
+  /* justify-self: flex-end; */
+  margin-left: 10%;
+}
+
+.header-word{
+  font-size: 72px;
+  padding:  0px 0px 8px;
+  color: #fff;
+  
+}
+.header-paragraph{
+  
+  font-size: 1.6rem;
+   line-height: 1.15;
+  /* margin: 0px 0px 112px; */
+  /* padding: 0px 380px 0px 32px; */
+  color: #fff;
+  
+}
+
+.second-nav{
+  width: 70%;
+margin: 0 auto;
+text-align: center;
+color: #000;
+font-size: 18.2px;
+padding: 20px;
+}
+
+.second-nav > a{
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.second-nav > a:hover{
+  background-color: #3858e9;
+  color: #fff;
+}
+
+.second-nav > a:active{
+  border-bottom: 5% solid #3858e9;
+ background-color: #fff;
+}
+
+.header-text{
+  color: #1d2327;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 31.2px;
+  padding-top:50px;
+  margin-bottom:15.6px;
+}
+
+.paragraph-div{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.paragraph-div > p{
+  font-size:28.08px;
+  color:#000;
+  margin-bottom: 28px;
+}
+
+.image-1-container{
+  display: inline-block;
+}
+
+.image-1{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 
