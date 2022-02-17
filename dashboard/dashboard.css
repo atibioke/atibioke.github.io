@@ -365,6 +365,8 @@ color: #1d2327;
 margin-bottom: 15px;
 }
 
+
+
 .image-1-texts > p{
  
   font-size: 18px;
@@ -410,7 +412,9 @@ margin-bottom: 15px;
       flex-wrap: nowrap;
     }
 
-
+    .what-new{
+      border-bottom: 10px solid #3858e9;
+    }
 
 
 
