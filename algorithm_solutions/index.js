@@ -20,9 +20,9 @@
 
 // function sumOfEvenFibonacci(a, b) {
    
-    // const num = ((Math.pow(1+(Math.pow(5, 0.5))/2, n) - (Math.pow (1-(Math.pow(5, 0.5))/2, n)*(1/(Math.pow(5, 0.5))))  
     
-let num = ( Math.pow(1+(Math.pow(5, 0.5))/2, n)  - Math.pow(1-(Math.pow(5, 0.5))/2, n))*(1/(Math.pow(5, 0.5)));
+    
+
 
 
 
