@@ -18,7 +18,16 @@
 // SUM FIBONACCI EVEN TERMS
 
 
-// function sumOfEvenFibonacci(a, b) {
+function evenSumOfFibonacci(n){
+
+    for(let n=3; n<=33; n+=3){
+  let num = Math.floor(( Math.pow((1+(Math.pow(5, 0.5)))/2, n)  - Math.pow((1-(Math.pow(5, 0.5)))/2, n))*(1/(Math.pow(5, 0.5))));
+    }
+     let sum = num+=num
+  
+   console.log(sum)
+  }
+  evenSumOfFibonacci(n)
    
     
     
