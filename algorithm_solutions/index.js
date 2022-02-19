@@ -90,7 +90,42 @@ function Fib(n) {
     }
 
 
+// LARGEST PALINDROME
 
+function largestPalindromeProduct(m) {
+    let ans;
+    if(m===2){
+     ans = 0;
+    for (let i = 99; i >= 10; i --) {
+        for (let j = 99; j >= 10; j --) {
+            let num = i * j;
+            let s = String(num);
+            let rs = s.split('').reverse().join('');
+            if (s === rs) {
+                ans = Math.max(ans, num);
+            }
+        }
+    }
+    }
+      if(m===3){
+     ans = 0;
+    for (let i = 999; i >= 100; i --) {
+        for (let j = 999; j >= 100; j --) {
+            let num = i * j;
+            let s = String(num);
+            let rs = s.split('').reverse().join('');
+            if (s === rs) {
+                ans = Math.max(ans, num);
+            }
+        }
+    }
+    }
+     
+    console.log(ans);
+      return ans;
+    }
+    
+    largestPalindromeProduct(3);
 
 
 
