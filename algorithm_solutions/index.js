@@ -21,6 +21,9 @@
 
 // SUM FIBONACCI EVEN TERMS
 
+// YOU'RE PASSING IN m WHERE m THE LIMIT OUR TERMS MUST NOT EXCEED
+
+
 function Fib(n) {
     let num = Math.floor(
       (Math.pow((1 + Math.pow(5, 0.5)) / 2, n) -
