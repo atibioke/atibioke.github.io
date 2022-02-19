@@ -1,4 +1,19 @@
 
+// TO GENERATE PRIMES WITHIN A RANGE
+function smallestMult(n) {
+    let array = [2];
+    for(let i=3; i<=n; i++){
+      if(Math.pow(2,i)%i===2){
+        array.push(i)
+      }
+    }
+      return array;
+    }
+    
+    smallestMult(n);
+
+
+
 // MULTIPLES OF NUMBERS WITHIN  A RANGE
 
 
