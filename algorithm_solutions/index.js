@@ -1,5 +1,5 @@
 
-
+// MULTIPLES OF NUMBERS WITHIN  A RANGE
 
 
 function findSumOfMultiplesOfTwoNumbers(a, b, range) {
