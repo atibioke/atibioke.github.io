@@ -172,4 +172,17 @@ function largestPalindromeProduct(m) {
         }
 
 
+        // SUM SQUARE DIFFERENCE
+
+        function sumSquareDifference(n) {
+            let sumOfSquare = (n*((2*n)+1)*(n+1))/6;
+            let squareOfSum = Math.pow((n*(n+1))/2, 2);
+            let difference = ( squareOfSum - sumOfSquare);
+             return difference;
+           }
+           
+           sumSquareDifference(100);
+
+           
+
 
