@@ -8,15 +8,26 @@
 </head>
 <body>
     <script>
-        
-let prod=1993
-let revProd = prod.toString()
-let n1 = revProd.split('');
-console.log(n1, 'split');
-let n2 = revProd.split('').reverse();
-console.log(n2, "split and reverse");
-let n3 = revProd.split('').reverse().join('');
-console.log(n3, 'split, reverse and join');
+        function nthPrime(n) {
+    let array = [2];
+    for(let i=3; i<=2000; i++){
+      if(Math.pow(2,i)%i===2){
+        array.push(i)
+        // console.log(array, 'array')
+      }
+    }
+    const target =  n>=100 ? n : n-1;
+  console.log(array[target]);
+      return array[target];
+     
+    }
+    
+     
+    
+ 
+
+
+nthPrime(10);
 
 </script>
 </body>

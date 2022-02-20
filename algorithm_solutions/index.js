@@ -1,21 +1,22 @@
 
 // TO GENERATE PRIMES WITHIN A RANGE
-function smallestMult(n) {
+function primes(n) {
     let array = [2];
     for(let i=3; i<=n; i++){
       if(Math.pow(2,i)%i===2){
         array.push(i)
       }
     }
+
       return array;
     }
     
-    smallestMult(n);
+    primes(1000000);
 
 
-
+ // PROBLEM 1
 // MULTIPLES OF NUMBERS WITHIN  A RANGE
-
+   
 
 function findSumOfMultiplesOfTwoNumbers(a, b, range) {
     let  n_1;
@@ -54,8 +55,10 @@ function findSumOfMultiplesOfTwoNumbers(a, b, range) {
 
 // SUM FIBONACCI EVEN TERMS
 
-// YOU'RE PASSING IN m WHERE m THE LIMIT OUR TERMS MUST NOT EXCEED
 
+  // PROBLEM 2
+// YOU'RE PASSING IN m WHERE m THE LIMIT OUR TERMS MUST NOT EXCEED
+    
 
 function Fib(n) {
     let num = Math.floor(
@@ -78,7 +81,8 @@ function Fib(n) {
   evenSumOfFibonacci();
   
 
-    
+
+        // PROBLEM 3
     // LARGEST PRIME FACTOR
 
     function isPrime(n) {
@@ -105,6 +109,8 @@ function Fib(n) {
     }
 
 
+
+    // PROBLEM 4
 // LARGEST PALINDROME
 
 function largestPalindromeProduct(m) {
@@ -142,7 +148,7 @@ function largestPalindromeProduct(m) {
     
     largestPalindromeProduct(3);
 
-
+    // PROBLEM 5
     //  smallest positive number that is evenly divisible by all of the numbers in a range
 
     function smallestMult(n) {
@@ -171,7 +177,7 @@ function largestPalindromeProduct(m) {
          return multiple;
         }
 
-
+        // PROBLEM 6
         // SUM SQUARE DIFFERENCE
 
         function sumSquareDifference(n) {
@@ -183,6 +189,43 @@ function largestPalindromeProduct(m) {
            
            sumSquareDifference(100);
 
+
+           // PROBLEM 7
+        //    nthPrime
+
+        function nthPrime(k) {
+            let array = []; 
+           // let target = k>=100  ? k : k-1
+            let  upperBound = Math.sqrt(150000); 
+             let result = [];
+        
+            for (let i = 0; i <= 150000; i++) {
+                array.push(i);
+            }
            
+            for (let i = 2; i <= upperBound; i++) {
+                if (array[i]) {
+                    for (let j = i * i; j < 150000; j += i) {
+                        array[j] = false;
+                    }
+                }
+            }
+        
+            for (let i = 2; i < 150000; i++) {
+                if(array[i]) {
+                    result.push(i);
+                }
+            }
+            return result[k-1];
+        };
+        
+        console.log(nthPrime(100))
+
+
+
+
+
+
+
 
 
