@@ -108,29 +108,29 @@ function Fib(n) {
 // LARGEST PALINDROME
 
 function largestPalindromeProduct(m) {
-    let ans;
+    let prod;
     if(m===2){
-     ans = 0;
+     result = 0;
     for (let i = 99; i >= 10; i --) {
         for (let j = 99; j >= 10; j --) {
-            let num = i * j;
-            let s = String(num);
-            let rs = s.split('').reverse().join('');
-            if (s === rs) {
-                ans = Math.max(ans, num);
+            let prod = i * j;
+            let stringProd = String(prod);
+            let reverseStringProd = stringProd.split('').reverse().join('');
+            if (stringProd === reverseStringProd ) {
+                result = Math.max(result, prod);
             }
         }
     }
     }
       if(m===3){
-     ans = 0;
+     result = 0;
     for (let i = 999; i >= 100; i --) {
         for (let j = 999; j >= 100; j --) {
-            let num = i * j;
-            let s = String(num);
-            let rs = s.split('').reverse().join('');
-            if (s === rs) {
-                ans = Math.max(ans, num);
+            let prod = i * j;
+            let stringProd = String(prod);
+            let reverseStringProd  = stringProd.split('').reverse().join('');
+            if (stringProd === reverseStringProd ) {
+                result = Math.max(result, prod);
             }
         }
     }
@@ -143,7 +143,33 @@ function largestPalindromeProduct(m) {
     largestPalindromeProduct(3);
 
 
+    //  smallest positive number that is evenly divisible by all of the numbers in a range
 
+    function smallestMult(n) {
+        let multiple=1;
+        let array = [2];
+        for(let i=3; i<=n; i++){
+          if(Math.pow(2,i)%i===2){
+            array.push(i)
+          }
+          console.log(array)
+        }
+        
+         for(let j = 0; j < array.length; j++){
+           for(let k = 1; k <= n; k++){
+             const currentPower = Math.pow(array[j], k);
+             const power = currentPower === n ? k : k-1;
+             if(currentPower > n){
+               const previousNum = Math.pow(array[j], power);
+               multiple *= previousNum;
+               break;
+             }
+           }
+          
+         }
+        
+         return multiple;
+        }
 
 
 
