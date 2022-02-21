@@ -11,10 +11,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Roboto",Sans-serif;
 }
 
 .card{
     width: 380px;
+
+    /* The perspective property is used to give a 3D-positioned element some perspective. */
+    /* When defining the perspective property for an element, 
+    it is the CHILD elements that get the perspective view, 
+    NOT the element itself. */
+
     perspective: 1000px;
     cursor: pointer;
 
@@ -24,11 +31,22 @@
     position: relative;
     width: 100%;
     text-align: center;
+
+    /* The transform-style CSS property sets whether children of an element 
+    are positioned in the 3D space or are flattened in the plane of the element. */
+
     transform-style: preserve-3d;
-    transition: transform 1s;
+
+    /* transforms move or change the appearance of an element,
+     while transitions make the element smoothly and gradually
+      change from one state to another. */
+    
+      transition: transform 1s;
 }
 
 .front-face{
+    /* Hide and show the back face of two rotated <div> elements: */
+
     backface-visibility: hidden;
 }
 
@@ -51,6 +69,11 @@
    display: flex;
    justify-content: center;
    flex-direction: column;
+   
+   /* The rotateY() CSS function defines a transformation that 
+   rotates an element around the ordinate (vertical axis) 
+   without deforming it. Its result is a <transform-function> data type. */
+
    transform: rotateY(180deg);
 }
 
