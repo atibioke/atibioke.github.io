@@ -71,8 +71,6 @@
     height: 40px;
     line-height: 40px;
     font-size: 18px;
-    background:  #e43a00;
-    border-radius: 50%;
     margin: 25px 6px;
 }
 
@@ -81,11 +79,17 @@
     color: #fff;
     background:  #e43a00;
     padding: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
 }
 
 
 .twitter{
+    font-size:20px;
+}
+.facebook{
     font-size:16px;
+
 }
 
 .btn{
