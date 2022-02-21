@@ -24,6 +24,8 @@
     position: relative;
     width: 100%;
     text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
 }
 
 .front-face{
@@ -49,6 +51,7 @@
    display: flex;
    justify-content: center;
    flex-direction: column;
+   transform: rotateY(180deg);
 }
 
 .back-face h2{
@@ -73,7 +76,28 @@
     margin: 25px 6px;
 }
 
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    background:  #e43a00;
+    padding: 10px;
+}
 
 
+.twitter{
+    font-size:16px;
+}
 
+.btn{
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin: 80px auto 0;
+}
 
+.card:hover .card-inner{
+    transform: rotateY(-180deg);
+}
