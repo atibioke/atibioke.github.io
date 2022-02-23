@@ -158,7 +158,6 @@ function largestPalindromeProduct(m) {
           if(Math.pow(2,i)%i===2){
             array.push(i)
           }
-          console.log(array)
         }
         
          for(let j = 0; j < array.length; j++){
