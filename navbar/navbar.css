@@ -69,11 +69,45 @@ li:hover{
 }
 
 
+.main{
+    margin-top: 10%;
+    margin-left: 9%;
+    color: #fff;
+}
 
+.main h1{
+    font-size: 120px;
+    font-family: "Roboto",Sans-serif;
+    line-height:140px;
+    font-weight: 600;;
+}
 
+.main p{
+    max-width: 500px;
+    line-height:28px;
+    opacity: 0;
+}
 
+.slide-left{
+    animation: slide-left 1s linear forwards;
 
+}
+@keyframes slide-left {
+    0% {
+        transform: translate(100px);
+        opacity:0;
+    
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    
+    }
+}
 
+p.slide-left{
+    animation-delay: 1s;
+}
 
 
 
