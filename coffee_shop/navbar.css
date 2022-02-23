@@ -10,6 +10,7 @@ body{
     background:url("./coffee-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .navbar{
@@ -68,7 +69,7 @@ ul > li{
 
 li:hover{
     cursor: pointer;
-    background:blue;
+    background-color: burlywood;
     color: #fff
  
 }
@@ -95,6 +96,7 @@ li:hover{
     max-width: 500px;
     line-height:28px;
     opacity: 0;
+    font-size: 18px;
 }
 
 .slide-left{
@@ -105,8 +107,8 @@ li:hover{
     0% {
         transform: translate(100px);
         opacity:0;
-    
     }
+
     100% {
         transform: translate(0px);
         opacity: 1;
