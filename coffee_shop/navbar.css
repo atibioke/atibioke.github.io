@@ -33,9 +33,9 @@ body{
     cursor: pointer;
 }
 
-.page-container:hover{
+/* .page-container:hover{
 background-color: burlywood;
-}
+} */
 
 .page-container a{
     text-decoration: none;
