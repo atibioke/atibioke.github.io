@@ -10,7 +10,6 @@ body{
     background:url("./coffee-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
 }
 
 .navbar{
@@ -19,6 +18,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    transition: background 1s;
    
 }
 .navbar:hover{
