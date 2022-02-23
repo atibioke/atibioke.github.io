@@ -26,10 +26,14 @@ body{
 }
 
 .page-container{
-    background: rgb(122, 122, 122);
+    /* background: rgb(122, 122, 122); */
     padding: 10px 15px;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.page-container:hover{
+background-color: burlywood;
 }
 
 .page-container a{
@@ -37,6 +41,11 @@ body{
     font-size: 18px;
     color: #fff;
     font-weight: 600px;
+    justify-content: center;
+}
+
+.iconify{
+    padding-top: 3px;
 }
 
 .lists-container > ul{
