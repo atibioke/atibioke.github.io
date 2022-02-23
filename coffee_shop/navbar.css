@@ -44,9 +44,14 @@ background-color: burlywood;
     font-weight: 600px;
     justify-content: center;
 }
+/* 
+.cafe{
+    padding-left: 1.5em !important;
+} */
 
 .iconify{
     padding-top: 3px;
+   
 }
 
 .lists-container > ul{
