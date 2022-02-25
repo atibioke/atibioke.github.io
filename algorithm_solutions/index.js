@@ -193,8 +193,7 @@ function largestPalindromeProduct(m) {
         //    nthPrime
 
         function nthPrime(k) {
-            let array = []; 
-           // let target = k>=100  ? k : k-1
+            let array = [];
             let  upperBound = Math.sqrt(150000); 
              let result = [];
         
