@@ -15,7 +15,7 @@ countryButtonElement.addEventListener("click", function(amebo){
         optionIndex.push(randomOptionIndex)
     }
 
-    const shuffledOptionIndex = optionIndex.sort((a, b)=> a-b)
+    const shuffledOptionIndex = optionIndex.sort(() => .5 - Math.random())
 
     let container = document.getElementById('container');
 
@@ -50,6 +50,7 @@ countryButtonElement.addEventListener("click", function(amebo){
 
            if(selectedCountry.name.toLowerCase() === value){
                alert("Correct")
+            
            } else {
                alert("Incorrect")
            }
