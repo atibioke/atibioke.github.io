@@ -11,6 +11,7 @@
     animation-iteration-count: infinite;
     animation-fill-mode: none;
     animation-play-state: running;
+    text-align: center;
   }
   
   @keyframes stretch {
