@@ -17,23 +17,23 @@ countryButtonElement.addEventListener("click", function(amebo){
 
     const shuffledOptionIndex = optionIndex.sort((a, b)=> a-b)
 
-    var container = document.getElementById('container');
+    let container = document.getElementById('container');
 
     container.innerHTML = ""
     for(let i = 0; i < shuffledOptionIndex.length; i++){
         const selectedCountry = countryWithImages[optionIndex[i]]
 
-        var checkbox = document.createElement('input');
+        let checkbox = document.createElement('input');
         checkbox.type = 'radio';
         checkbox.class = 'checkbox';
         checkbox.name = 'country';
         checkbox.value = selectedCountry.name;
       
-        var label = document.createElement('label')
+        let label = document.createElement('label')
         label.htmlFor = selectedCountry.name;
         label.appendChild(document.createTextNode(selectedCountry.name));
         
-        var br = document.createElement('br');
+        let br = document.createElement('br');
       
         container.appendChild(checkbox);
         container.appendChild(label);
