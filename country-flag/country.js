@@ -19,7 +19,7 @@ countryButtonElement.addEventListener("click", function(amebo){
 
     let container = document.getElementById('container');
 
-    container.innerHTML =  ""
+    container.innerHTML = ""
     for(let i = 0; i < shuffledOptionIndex.length; i++){
         const selectedCountry = countryWithImages[optionIndex[i]]
 
