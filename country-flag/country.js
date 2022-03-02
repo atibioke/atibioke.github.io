@@ -47,8 +47,7 @@ countryButtonElement.addEventListener("click", function(amebo){
     countryForm.addEventListener("click", function(e) {
         if (e.target.tagName.toUpperCase() === "INPUT") {
             var value = e.target.value.toLowerCase(); 
-
-           if(selectedCountry.name.toLowerCase() === value){
+         if(selectedCountry.name.toLowerCase() === value){
                alert("Correct")
              } else {
                alert("Incorrect")
