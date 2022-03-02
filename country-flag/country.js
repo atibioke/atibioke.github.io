@@ -50,8 +50,7 @@ countryButtonElement.addEventListener("click", function(amebo){
 
            if(selectedCountry.name.toLowerCase() === value){
                alert("Correct")
-            
-           } else {
+             } else {
                alert("Incorrect")
            }
         }
