@@ -6,7 +6,7 @@
 
 body{
     background-color: #fff;
-    font-family: 'poppins' sans-serif;
+    font-family: "poppins" sans-serif;
 }
 
 
@@ -43,7 +43,6 @@ body{
 .top-right-container{
     width: 55%;
     padding-top: 40px;
-   
     
 }
 
@@ -55,6 +54,7 @@ body{
 
 
   select {
+     
     cursor: pointer;
     font-size: 16px;
     font-family: inherit;
@@ -80,12 +80,16 @@ body{
   }
 
   .select{
+  padding-left:50px;
       width: 34%;
+     
+
   }
 
 .search{
     width: 66%;
     position: relative;
+    
 }
 
 .input-field{
@@ -158,6 +162,12 @@ body{
 .company-alphabets > a{
     text-decoration: none;
     color: #74848A;
+}
+
+.card-container{
+    width: 76vw;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 
