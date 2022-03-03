@@ -4,15 +4,38 @@
     box-sizing: border-box;
 }
 
-.container{
-width: 100%;
-background-color: #576F7F;
+body{
+    background-color: #fff;
+    font-family: 'poppins' sans-serif;
 }
 
+
 .top-container{
-    width: 80%;
-    background-color: red;
+    width: 70%;
+    background-color: #fff;
     margin: 0 auto;
-    border-right: 1px dotted red;
-    border-left: 1px dotted red;
+    color: #576f7f;
+    border-top: 1px solid rgb(85, 85, 85);
+}
+
+
+.top-left-container{
+    font-family: 'poppins' sans-serif;
+    width: 40%;
+    padding-top: 80px;
+}
+.head-text{
+    line-height: 2.2rem;
+    font-weight: 800;
+    font-size: 150%;
+}
+
+
+.logos-logo{
+    width: 50.4px;
+    height: 50.4px;
+}
+
+.top-right-container{
+    width: 30%;
 }
