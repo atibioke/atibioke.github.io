@@ -152,7 +152,6 @@ body{
     margin: 0 auto;
    justify-content: space-between;
    margin-top: 60px;
-
    padding-bottom: 15px;
    border-bottom: 1px solid #74848A;
    
@@ -164,7 +163,7 @@ body{
     color: #74848A;
 }
 
-.card-container{
+main{
     width: 76vw;
     background-color: #000;
     margin: 0 auto;
