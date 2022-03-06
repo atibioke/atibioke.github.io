@@ -176,21 +176,28 @@ body{
 }
 
 .card{
+    width: 100%;
+    height:200px;
     box-sizing: border-box;
-    width: 25%;
-    margin: 15px 0px 15px 0px;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-box{
+    width: 22%;
+    height:200px;
+    margin: 15px 0px 100px 0px;
 }
 
 
-
 .card-image{
-    width: 16vw;
-    height: 35vh;
-    background-color: #F8FFFD;
-    border: 1px solid #06DAAF;
+    width: 168px;
     border-radius: 4px;
-    
-  
 }
 
 
