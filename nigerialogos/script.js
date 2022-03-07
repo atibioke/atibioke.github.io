@@ -10,13 +10,19 @@ for (let i = 0; i < companyLogos.length; i++) {
         <div class="card">
         <img src="${logoUrl}" alt="${fileName}" class="card-image">
     </div>
-        <p>
-            <a href="" class="title">${title}</a>
-
+        <p class="title">
+            <a href="" >${title}</a>
         </p>
         <h3>
-        <span>${category}</span>
+        <span class="category">${category}</span>
          </h3>
     </div>
     `;
 }
+
+
+
+
+
+
+
