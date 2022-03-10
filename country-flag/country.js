@@ -3,7 +3,7 @@ const countryButtonElement = document.querySelector("button")
 countryButtonElement.addEventListener("click", function(amebo){
     
     const randomIndex = Math.floor(Math.random() * countryWithImages.length )
-    console.log(countryWithImages)
+   
     const selectedCountry = countryWithImages[randomIndex]
     
     document.querySelector("img")
@@ -15,6 +15,7 @@ countryButtonElement.addEventListener("click", function(amebo){
         let randomOptionIndex = Math.floor(Math.random() * countryWithImages.length)
         optionIndex.push(randomOptionIndex)
     }
+    console.log(optionIndex)
 
     const shuffledOptionIndex = optionIndex.sort(() => .5 - Math.random())
 
