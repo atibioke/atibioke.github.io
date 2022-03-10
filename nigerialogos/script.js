@@ -15,6 +15,8 @@ function pickOutCompany(companyEntity) {
                 <a href="" >${title}</a>
             </p>
             <h3>
+
+
             <span class="category">${category}</span>
              </h3>
         </div>
