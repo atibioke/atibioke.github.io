@@ -3,6 +3,7 @@ const countryButtonElement = document.querySelector("button")
 countryButtonElement.addEventListener("click", function(amebo){
     
     const randomIndex = Math.floor(Math.random() * countryWithImages.length )
+    console.log(countryWithImages)
     const selectedCountry = countryWithImages[randomIndex]
     
     document.querySelector("img")
