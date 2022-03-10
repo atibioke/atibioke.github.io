@@ -15,15 +15,18 @@ countryButtonElement.addEventListener("click", function(amebo){
         let randomOptionIndex = Math.floor(Math.random() * countryWithImages.length)
         optionIndex.push(randomOptionIndex)
     }
-    console.log(optionIndex)
+  
 
     const shuffledOptionIndex = optionIndex.sort(() => .5 - Math.random())
 
+
+
     let container = document.getElementById('container');
 
-    container.innerHTML = ""
+    container.innerHTML = "";
+   
     for(let i = 0; i < shuffledOptionIndex.length; i++){
-        const selectedCountry = countryWithImages[optionIndex[i]]
+        const selectedCountry = countryWithImages[shuffledOptionIndex[i]]
 
         let checkbox = document.createElement('input');
         checkbox.type = 'radio';
