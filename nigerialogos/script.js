@@ -28,7 +28,6 @@ for (let i = 0; i < companyLogos.length; i++) {
 }
 
 document.getElementById("Categories").addEventListener("change", function (e) {
-  // console.log(this.value, e.target.value);
   let categoryValue = this.value;
   logoContainer.innerHTML = "";
 
