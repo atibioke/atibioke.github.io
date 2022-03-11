@@ -1,4 +1,5 @@
 const container = document.querySelector('.container')
+let progress = document.getElementById("file");
 
 
  setInterval(() => {
@@ -11,6 +12,18 @@ const container = document.querySelector('.container')
 
 }, 2500);
 
+
+
+
+function move() {
+  var a = setInterval(function() {
+    progress.value = progress.value + 1;
+
+    if (progress.value == 100) {
+      clearInterval(a);
+    }
+  }, 2500);
+}
 
 
 
