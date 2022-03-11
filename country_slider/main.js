@@ -10,6 +10,8 @@ let progress = document.getElementById("file");
     document.querySelector("img")
     .setAttribute("src", `https:${selectedCountry.file_url}`)
 
+    
+
 }, 2500);
 
 
@@ -24,6 +26,11 @@ function move() {
     }
   }, 2500);
 }
+
+
+
+
+
 
 
 
