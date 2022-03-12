@@ -18,14 +18,19 @@ let progress = document.getElementById("file");
 
 
 function move() {
-  var a = setInterval(function() {
-    progress.value = progress.value + 1;
+    
+        let a = setInterval(function() {
+          for(let i=0; i<=100; i+=1){
+            progress.value =  i;
+          }
+            if (progress.value == 100) {
+              clearInterval(a);
+            }
+          }, );
 
-    if (progress.value == 100) {
-      clearInterval(a);
     }
-  }, 2500);
-}
+ 
+
 
 
 
