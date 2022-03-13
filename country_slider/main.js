@@ -1,5 +1,5 @@
 const container = document.querySelector('.container')
-let progress = document.getElementById("file");
+let progress = document.getElementsByClassName("progress-bar")[0];
 
 
  setInterval(() => {
@@ -10,9 +10,14 @@ let progress = document.getElementById("file");
     document.querySelector("img")
     .setAttribute("src", `https:${selectedCountry.file_url}`)
 
-    
 
 }, 2500);
+// setInterval(() => {
+//   const computedStyle = getComputedStyle(progress);
+// const width = parseFloat(computedStyle.getPropertyValue("--width")) || 0;
+// progress.style.setProperty("--width", width+0.1)
+    
+// })
 
 
 

@@ -76,13 +76,30 @@ img:hover {
     height:3em;
     background-color: #111;
     border-radius: 1.5em;
+color: #fff;
+}
+
+.progress-bar::before{
+  content: attr(data-label);
+  display:flex;
+  align-items: center;
+  position: absolute;
+  left: .5em;
+  bottom: .5em;
+  width: calc(var(--width, 0)*1%);
+  min-width: 2rem;
+  max-width:calc(100%-1em);
+  background-color: #069;
+  border-radius:1em;
+  padding:1em;
 
 }
 
 
+
 /* ---------------------------------------------------------------- */
 
-progress {
+/* progress {
 	display:inline-block;
 	width:350px;
 	height:20px;
@@ -119,4 +136,4 @@ progress:after {
 	display:inline-block;
 
 	content: attr(value) '%';
-}
+} */
