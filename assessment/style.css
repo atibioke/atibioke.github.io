@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.navbar{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: background 1s;
+   
+}
+
+
+.lists-container > ul{
+    display: flex;
+
+}
+
+.home{
+    border-radius: 3px;
+}
+
+
+ul > li{
+    list-style: none;
+    padding: 10px;
+    margin-right:3px;
+    border-radius: 3px;
+}
+
+.logo{
+position: absolute;
+width: 264px;
+height: 85px;
+left: 42px;
+top: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
