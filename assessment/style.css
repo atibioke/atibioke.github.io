@@ -236,6 +236,12 @@ color: #000000;
   border-radius: 10px;
 }
 
+.pastor-container{
+  background-color: #FEF4F3;
+  padding: 50px;
+  
+}
+
 .first-button{
   font-family: 'Open Sans', sans-serif;
   padding: 18px;
@@ -247,6 +253,33 @@ color: #000000;
  
 }
 
+.media{
+  color: #EC1A11;
+}
+
+
+.media-paragraph{
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+
+.vector{
+  background-image: url('./img-6.png');
+  height: 495px;
+}
+
+.vector-container{
+  background: url('./Ellipse.png');
+  display: flex;
+  justify-content:center;
+  align-self:center;
+}
+
+.vector-img{
+  width:35px;
+  height:34px;
+}
 
 
 
