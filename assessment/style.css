@@ -1,52 +1,103 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #E5E5E5;
+body {
+  background-color: #e5e5e5;
 }
 
-.navbar{
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    transition: background 1s;
-   
+.navbar {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-
-.lists-container > ul{
-    display: flex;
-
-}
-
-.home{
-    border-radius: 3px;
+.lists-container > ul {
+  display: flex;
 }
 
 
-ul > li{
-    list-style: none;
-    padding: 10px;
-    margin-right:3px;
-    border-radius: 3px;
+
+ul > li {
+  list-style: none;
+  padding: 10px;
+  margin-right: 75px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.logo{
+img {
+  width: 194px;
+  height: 60px;
+  left: 42px;
+  top: 38px;
+}
+
+.give {
+  background-color: #ec1a11;
+}
+
+.main-section {
+  background: url("./unsplash_3eSZaVlxsLw.png");
+  width: 1512px;
+  height: 718px;
+  left: 0px;
+  top: 90px;
+}
+
+.main-title{ 
 position: absolute;
-width: 264px;
-height: 85px;
-left: 42px;
-top: 38px;
+width: 1175px;
+height: 214px;
+left: 164px;
+top: 250px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 800;
+font-size: 90px;
+line-height: 107px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.main-title-1{
+ position: absolute;
+width: 989px;
+height: 80px;
+left: 272px;
+top: 500px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 80px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+
 }
 
 
-
-
+.second-section{
+    position: absolute;
+    width: 863px;
+    height: 171px;
+    
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+}
 
 
 
