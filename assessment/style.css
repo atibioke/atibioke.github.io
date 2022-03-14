@@ -6,6 +6,7 @@
 
 body {
   background-color: #e5e5e5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -14,7 +15,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
+
+
 
 .lists-container > ul {
   display: flex;
@@ -42,36 +46,37 @@ img {
 }
 
 .main-section {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   background: url("./unsplash_3eSZaVlxsLw.png");
   width: 1512px;
   height: 718px;
-  left: 0px;
-  top: 90px;
+mix-blend-mode: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main-title{ 
-position: absolute;
-width: 1175px;
+width: 1193px;
 height: 214px;
-left: 164px;
-top: 250px;
-font-family: 'SF Pro Display';
 font-style: normal;
 font-weight: 800;
 font-size: 90px;
 line-height: 107px;
 text-align: center;
 color: #FFFFFF;
+font-family: 'Open Sans', sans-serif;
 }
 
 .main-title-1{
- position: absolute;
-width: 989px;
+
+width: 1050px;
 height: 80px;
 left: 272px;
 top: 500px;
 
-font-family: 'SF Pro Display';
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 40px;
@@ -83,13 +88,18 @@ color: #FFFFFF;
 
 }
 
+.below-main-section_1{
+ 
+  display: flex;
+  justify-content:center;
+  margin-top: 5%;
+}
+
 
 .second-section{
-    position: absolute;
-    width: 863px;
+  
+    width: 1037px;
     height: 171px;
-    
-    font-family: 'SF Pro Display';
     font-style: italic;
     font-weight: 500;
     font-size: 48px;
@@ -97,10 +107,77 @@ color: #FFFFFF;
     text-align: center;
     margin: 0 auto;
     color: #000000;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.exodus-container{
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+ 
+}
+
+.exodus{
+height: 29px;
+width: 100%;
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+color: #000000;
+}
+
+.exodus-1{
+
+  height: 29px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  text-align: center;
+  color: #EC1A11;
+  margin-top: 5%;
+  }
 
 
+.schedules{
+  display: flex;
+  justify-content:space-between;
+  width: 222px;
+  height: 29px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  text-align: center;
+  color: #EC1A11;
+  margin-top: 5%;
+}
+
+.schedules-1{
+  text-align: center;
+  width: 273px;
+  height: 274px;
+  background: rgba(236, 26, 17, 0.05);
+  border: 1px solid #EC1A11;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
 
 
 
