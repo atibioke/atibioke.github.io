@@ -365,6 +365,11 @@ img {
   margin-top: 110px;
 }
 
+
+.join-us-paragraph{
+  line-height:28px
+}
+
 .church-unit-container > p {
   margin-top: 10px;
   line-height: 25px;
@@ -373,16 +378,23 @@ img {
 .view-all-button {
   background-color: #ffffff;
   color: #ec1a11;
+  margin-top: 20px;
+}
+
+
+.footer-style{
+  padding: 3px;
+  margin: 0 auto;
+  background: rgba(146, 143, 143, 0.06);
+  margin-top: 110px;
 }
 
 .footie-container {
-  background: rgba(196, 196, 196, 0.06);
   margin-top: 110px;
   font-family: "Open Sans", sans-serif;
 }
 
 .footer-container {
-  
   width: 60%;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
@@ -393,8 +405,11 @@ img {
 
 .footer-container>p{
   margin-top: 45px;
-  line-height:25px;
   color: #000;
+}
+
+.footer>p{
+  line-height:30px;
 }
 
 .final-part{
@@ -472,7 +487,6 @@ img {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   padding: 10px;
-  text-align: center;
   width: 273px;
   height: 250px;
   background: rgba(236, 26, 17, 0.05);
@@ -517,8 +531,50 @@ img {
   margin-top: 25px;
 }
 
+.our-team-container{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.rectangle-container{
+  display: flex;
+  justify-content: center;
+  margin-top:70px;
+}
+
+.rectangle{
+  text-align: center;
+  width: 490px;
+  height: 635px;
+  background: rgba(236, 26, 17, 0.05);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
 
 
+.contact-us{
+  background: url("./img-16.png")
+}
+
+.our-message{
+  font-family: "Open Sans", sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.message-header-text{
+  font-family: "Open Sans", sans-serif;
+  color: #ec1a11;
+  text-align: center;
+}
+
+.contact-us-index-text-1{
+  margin-top: 293px;
+}
 
 
 
