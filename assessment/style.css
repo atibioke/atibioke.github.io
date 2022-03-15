@@ -500,3 +500,15 @@ img {
   line-height: 18px;
 }
 
+.church-unit{
+  background: url("./img-13.png")
+}
+
+.church-unit-header-text{
+  color: #ec1a11;
+}
+
+.church-unit-paragraph{
+  line-height: 24px;
+}
+
