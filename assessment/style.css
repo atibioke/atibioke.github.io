@@ -248,80 +248,154 @@ img {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-
 }
 
 .vector-container {
-  
   margin-top: 223px;
   width: 75px;
   height: 75px;
   border-radius: 50%;
   background-color: #fff;
-  
 }
 
 .vector-img {
   width: 35px;
   height: 34px;
   margin-left: 20px;
-   margin-top: 22px;
+  margin-top: 22px;
 }
 
-.video-section{
-  width:50%;
+.video-section {
+  width: 50%;
 }
 
-
-.bottom-row{
+.bottom-row {
   margin-top: 150px;
   width: 60%;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.column-img-1{
+.column-img-1 {
   background-image: url("./img-7.png");
-  width:290px;
-  height:330px;
-  border-radius:5px;
-  
- 
+  width: 290px;
+  height: 330px;
+  border-radius: 5px;
 }
 
-.column-img-2{
+.column-img-2 {
   background-image: url("./img-8.png");
-  width:290px;
-  height:330px;
-  border-radius:5px;
- 
+  width: 290px;
+  height: 330px;
+  border-radius: 5px;
 }
 
-.column-img-3{  background-image: url("./img-9.png");
-  width:290px;
-  height:330px;
-  border-radius:5px;
- 
+.column-img-3 {
+  background-image: url("./img-9.png");
+  width: 290px;
+  height: 330px;
+  border-radius: 5px;
 }
 
-.column{
+.column {
   width: 26%;
-  height:100%;
+  height: 100%;
 }
 
-
-.column>p{
+.column > p {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
-  line-height:20px;
+  line-height: 20px;
 }
 
-.vector-adjustment{
+/* .vector-adjustment{
   display: flex;
   justify-content:center;
+} */
+
+.watch-here {
+  margin-top: 18px;
+  padding: 10px;
+  color: #fff;
+  background-color: #ec1a11;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
 }
+
+.play-button {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adjust {
+  margin-top: 124px;
+}
+
+.bottom-row-para {
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+.church-unit-container {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.unit-part {
+  margin-top: 110px;
+}
+
+.church-unit-container > p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.view-all-button {
+  background-color: #ffffff;
+  color: #ec1a11;
+}
+
+.footie-container {
+  background: rgba(196, 196, 196, 0.06);
+  margin-top: 110px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-container {
+  
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-container>p{
+  margin-top: 45px;
+  line-height:25px;
+  color: #000;
+}
+
+.final-part{
+  background: rgba(196, 196, 196, 0.06);
+  margin-top: 110px;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+
+
 
 
 
