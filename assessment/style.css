@@ -402,7 +402,6 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background: rgba(196, 196, 196, 0.06);
   margin-top: 110px;
   font-family: "Open Sans", sans-serif;
 
@@ -427,9 +426,72 @@ img {
   color: #ec1a11;
 }
 
-.about-us-mandate{
-  
+.about-us-mandate>p{
+  line-height: 20px;
+}
+
+.pillar{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 110px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pillar>h1{
+  text-align: center;
+}
+
+.pillar-paragraph{
+  line-height: 25px;
+  margin-top: 15px;
 }
 
 
+.about-us-card-container{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 110px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about-us-card{
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+}
+
+.card{
+  margin-top:15px;
+  text-align: center;
+  width: 79%;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+  width: 273px;
+  height: 250px;
+  background: rgba(236, 26, 17, 0.05);
+  border: 1px solid #ec1a11;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.card>p{
+  padding: 20px;
+  line-height: 32px;
+}
+
+.column-3-row-1{
+  line-height: 25px !important;
+}
+
+#row-2{
+  padding: 16px;
+   line-height: 21px;
+}
 
