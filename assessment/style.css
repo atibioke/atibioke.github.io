@@ -51,7 +51,8 @@ img {
 
 .main-section {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-between; */
+ 
   align-items: center;
   flex-direction: column;
   background: url("./unsplash_3eSZaVlxsLw.png");
@@ -62,6 +63,7 @@ img {
 }
 
 .main-title {
+  margin-top: 180px;
   width: 1193px;
   height: 214px;
   font-style: normal;
@@ -410,11 +412,24 @@ img {
 /* about us styling */
 
 .about-us{
-  background:url();
+  background:url("./img-11.png");
 }
 
+.about-us-title{
+  margin-top: 280px;
+}
 
+.about-us-title-1{
+  margin-bottom: 220px;
+}
 
+.the-mandate{
+  color: #ec1a11;
+}
+
+.about-us-mandate{
+  
+}
 
 
 
