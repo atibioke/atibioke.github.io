@@ -179,8 +179,6 @@ img {
   padding-top: 40px;
   padding-right: 10px;
   text-align: center;
-  /* align-items: center; */
-  /* float: left; */
   color: #000000;
   font-family: "Open Sans", sans-serif;
 }
@@ -274,6 +272,16 @@ img {
   width:50%;
 }
 
+
+.bottom-row{
+  margin-top: 150px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.column-img-1{
+  background-image: url("./img-7.png");
+}
 
 
 
