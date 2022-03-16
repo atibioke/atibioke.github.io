@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
   font-family: "Open Sans", sans-serif;
 }
 
@@ -26,10 +26,19 @@ body {
 
 ul > li {
   list-style: none;
+  /* padding: 10px; */
+ 
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+li>a{
   padding: 10px;
   margin-right: 75px;
   border-radius: 3px;
   cursor: pointer;
+  color: #000;
+
 }
 
 img {
