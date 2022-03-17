@@ -1,6 +1,12 @@
+let counter = 0;
+let timer;
+
+
 function flagQuiz(amebo){
+ 
     
-  const randomIndex = Math.floor(Math.random() * countryWithImages.length )
+  // const randomIndex = Math.floor(Math.random() * countryWithImages.length )
+  const randomIndex = counter
  
   const selectedCountry = countryWithImages[randomIndex]
   
@@ -45,24 +51,35 @@ function flagQuiz(amebo){
 
   
   const countryForm = document.querySelector('#container');
-
+  const quizResult = document.querySelector('#result');
+  quizResult.innerHTML="";
 
   countryForm.addEventListener("click", function(e) {
       if (e.target.tagName.toUpperCase() === "INPUT") {
           var value = e.target.value.toLowerCase(); 
        if(selectedCountry.name.toLowerCase() === value){
-            <span></span>
+          quizResult.innerHTML= "correct!"
+           
            } else {
-            <span></span>
+          
+            quizResult.innerHTML= "incorrect!"
          }
       }
-  });
 
+  });
+ counter++
 
 }
 
 
-setInterval(flagQuiz, 2500)
+if(counter===countryWithImages.length){
+  clearInterval(timer)
+};
+
+
+ timer = setInterval(()=> flagQuiz(), 2500)
+
+
 
 
 
