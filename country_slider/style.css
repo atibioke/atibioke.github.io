@@ -11,23 +11,24 @@ body {
 
 .container {
   width: 100%;
+
  
 }
 
 .flag-container{
   display: flex;
-  align-items: center;
+  align-content: center;
 }
 
 .inner-container {
- 
   width: 50%;
   background-color: #585757;
 }
 
 img {
   width: 500px;
-  height: 150px;
+  height: 500px;
+  margin-top: 20px;
 }
 
 img:hover {
@@ -80,7 +81,7 @@ img:hover {
     height:3em;
     background-color: #111;
     border-radius: 1.5em;
-color: #fff;
+    color: #fff;
 }
 
 .progress-bar::before{
