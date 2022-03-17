@@ -9,27 +9,41 @@ body {
     margin: 0;
 }
 
-.container {
-  width: 100%;
 
- 
-}
-
-.flag-container{
+.country-flag-slider{
+  width: 80%;
+  margin: 0 auto;
   display: flex;
-  align-content: center;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: #eeee;
+
 }
 
-.inner-container {
-  width: 50%;
-  background-color: #585757;
+.flag{
+  margin-top:30px;
+  margin-bottom: 30px;
 }
 
-img {
+.title-container{
+margin: 10px 0px;
+}
+
+
+.title{
+  font-size: 20px;
+  font-weight: 500;
+  color: yellowgreen;
+}
+
+
+
+/* img {
   width: 500px;
   height: 500px;
   margin-top: 20px;
-}
+} */
 
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */

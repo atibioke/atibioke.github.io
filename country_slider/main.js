@@ -77,7 +77,7 @@ if(counter===countryWithImages.length){
 };
 
 
- timer = setInterval(()=> flagQuiz(), 2500)
+ timer = setInterval(()=> flagQuiz(), 3000)
 
 
 
