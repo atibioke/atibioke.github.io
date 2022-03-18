@@ -1,5 +1,5 @@
 let counter = 0;
-let width = 10;
+let width = 0;
 let timer;
 
 
@@ -73,15 +73,16 @@ function flagQuiz(amebo){
 }
 
 
+
+
 let bar = setInterval(() => {
   const progressBar = document.getElementById('progressBar');
   width++;
   progressBar.style.width = `${width}%`
-
-  
-if(width === 100){
-  clearInterval(bar)
-}
+ 
+  if(width === 100){
+    clearInterval(bar)
+  }
  
 }, 10);
 
