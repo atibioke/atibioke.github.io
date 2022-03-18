@@ -53,8 +53,8 @@ margin: 10px 0px;
 }
 #progressBar {
   background-color: blue;
-  width: 10%;
-  height: 50px;
+  width: 0%;
+  height: 5px;
 }
 
 
