@@ -73,18 +73,22 @@ function flagQuiz(amebo){
 }
 
 
-
-
 let bar = setInterval(() => {
   const progressBar = document.getElementById('progressBar');
   width++;
   progressBar.style.width = `${width}%`
  
-  if(width === 100){
-    clearInterval(bar)
-  }
+ 
+ 
+if(width === 100){
+  clearInterval(bar)
+  progressBar.style.width="0px"
+}
  
 }, 10);
+
+
+
 
 
 
@@ -94,6 +98,7 @@ if(counter===countryWithImages.length){
 
 
  timer = setInterval(()=> flagQuiz(), 3000)
+
 
 
 
