@@ -89,6 +89,7 @@
     }
     
     article>header{
+        border: 2px solid rgb(0, 247, 255);
         background-color: #fff;
         height: 120px;
         width: 120px;
