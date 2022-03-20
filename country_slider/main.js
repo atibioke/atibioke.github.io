@@ -84,7 +84,6 @@ if(width === 100){
   clearInterval(bar)
   progressBar.style.width="0px"
 }
- 
 }, 10);
 
 
