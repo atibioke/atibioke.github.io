@@ -88,11 +88,6 @@ if(width === 100){
 
 
 
-
-
-
-
-
 if(counter===countryWithImages.length){
   clearInterval(timer)
 };
