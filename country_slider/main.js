@@ -78,7 +78,6 @@ let bar = setInterval(() => {
   width++;
   progressBar.style.width = `${width}%`
  
- 
 
 if(width === 100){
   clearInterval(bar)
