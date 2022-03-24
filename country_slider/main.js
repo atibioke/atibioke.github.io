@@ -102,8 +102,6 @@ if(counter===countryWithImages.length){
 
 
 
-
-
 // const container = document.querySelector('.container')
 // let progress = document.getElementsByClassName("progress-bar")[0];
 // console.log(progress)
