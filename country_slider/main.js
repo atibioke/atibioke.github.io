@@ -90,6 +90,12 @@ if(counter===countryWithImages.length){
   clearInterval(timer)
 };
 
+
+
+
+
+
+
  timer = setInterval(()=> flagQuiz(), 3000)
 
 
