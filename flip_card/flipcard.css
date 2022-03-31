@@ -125,6 +125,7 @@
     margin: 80px auto 0;
 }
 
+
 .card:hover .card-inner{
     transform: rotateY(-180deg);
 }
