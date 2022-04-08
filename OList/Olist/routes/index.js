@@ -26,6 +26,7 @@ router.get('/mine/adverts', function(req, res, next) {
   res.render('index', { title: 'profile' });
 });
 
+
 /* GET change password page. */
 router.get('/mine/password', function(req, res, next) {
   res.render('index', { title: 'change password' });
