@@ -37,7 +37,6 @@ router.get('/house-to-let', function(req, res, next) {
 });
 
 
-
 /* GET change password page. */
 router.get('/mine/password', function(req, res, next) {
   res.render('index', { title: 'change password' });
