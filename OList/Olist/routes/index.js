@@ -33,6 +33,7 @@ router.get('/mine/password', function(req, res, next) {
 });
 
 
+
 /* GET house to let page. */
 router.get('/house-to-let', function(req, res, next) {
   res.render('index', { title: 'house to let' });
