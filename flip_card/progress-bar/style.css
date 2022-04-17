@@ -2,3 +2,14 @@
 body {
     background: #edf1f5;
 }
+
+.progress{
+    margin: 50px auto;
+    padding : 2px;
+    width : 100%;
+    max-width: 500px;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 20px;
+    height: 30px;
+}
