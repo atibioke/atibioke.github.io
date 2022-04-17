@@ -28,3 +28,8 @@ body {
     );
     animation: fill-bar 3s infinite;
 }
+
+@keyframes fill-bar{
+    from {width: 5%;}
+    to {width: 100%;}
+}
